@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchForm(props) {
   return (
-    <form className="m-3">
+    <form className="m-2">
       <div className="input-group">
         <input
           onChange={props.handleInputChange}
