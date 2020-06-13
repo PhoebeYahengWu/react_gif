@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchForm(props) {
   return (
-    <form>
+    <form className="m-3">
       <div className="input-group">
         <input
           onChange={props.handleInputChange}
@@ -10,7 +10,7 @@ function SearchForm(props) {
           name="search"
           type="text"
           className="form-control"
-          placeholder="Search for a Gif"
+          placeholder="Search for a GIF"
           id="search"
         />
         <div className="input-group-append">
