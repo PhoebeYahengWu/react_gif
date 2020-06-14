@@ -1,2 +1,2 @@
 # react_gif
-create gif search app
+create gif search tool
